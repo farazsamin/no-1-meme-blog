@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
+import { UserContext } from '../../App';
 const AddBlog = () => {
     const [blogTitle, setBlogTitle] =useState('')
     const [blogContent, setBlogContent] =useState('')
     const [imageUrl,setImageUrl] = useState(null)
+   
+   
 
     const handleImageUpload = event => {
         console.log(event.target.files[0])
