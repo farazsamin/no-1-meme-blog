@@ -13,6 +13,7 @@ Email : test@test.com
 Pass  : #2021dev
 
 Features : 
+-- Custom Login authentication 
 
 -- User can only view the posts.
 
